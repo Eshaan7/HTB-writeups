@@ -21,7 +21,7 @@ Profile: https://www.hackthebox.eu/home/users/profile/256874
 
 #### Easy
 	
-- [Devel | IP: 10.10.10.5](Windows%20Machines/Retired/Devel/README.md)
+- [Devel | IP: 10.10.10.5](Windows%20Machines/Easy/Devel/README.md)
 
 <!-- #### Medium
 
