@@ -50,3 +50,7 @@ As soon as we run `$ python test.py`, we get a shell as user `scriptmanager`. Ex
 ### Reading Flags
 
 ![](4.png)
+
+### Trophy
+
+![](trophy.png)

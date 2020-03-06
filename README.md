@@ -6,23 +6,24 @@ Profile: https://www.hackthebox.eu/home/users/profile/256874
 
 <img src="https://www.hackthebox.eu/badge/image/256874" alt="Hack The Box">
 
-### Linux
+## Linux
 
 #### Easy
 
 - [Bashed | IP: 10.10.10.68](Linux%20Machines/Easy/Bashed/README.md)
+- [Nibbles | IP: 10.10.10.75](Linux%20Machines/Easy/Nibbles/README.md)
 	
-#### Medium
+<!-- #### Medium
 
-#### Hard
+#### Hard -->
     
-### Windows
+## Windows
 
 #### Easy
 	
 - [Devel | IP: 10.10.10.5](Windows%20Machines/Retired/Devel/README.md)
 
-#### Medium
+<!-- #### Medium
 
-#### Hard
+#### Hard -->
 

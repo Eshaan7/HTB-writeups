@@ -3,24 +3,28 @@
 ![machine info card](machine.png)
 
 
-###### Creating msfvenom payload
+#### Creating msfvenom payload
 
 ![](1.png)
 
-###### uploading payload via FTP anonymous login
+#### uploading payload via FTP anonymous login
 
 ![](2.png)
 
-###### Meterpreter Reverse shell
+#### Meterpreter Reverse shell
 
 ![](3.png)
 
-###### Priv Esc
+#### Priv Esc
 
 ![](4.png)
 ![](5.png)
 
-###### Reading Flags
+#### Reading Flags
 
 ![](6.png)
 
+
+#### Trophy
+
+![Trophy](trophy.png)
