@@ -6,23 +6,23 @@ Profile: https://www.hackthebox.eu/home/users/profile/256874
 
 <img src="https://www.hackthebox.eu/badge/image/256874" alt="Hack The Box">
 
-### [Linux](#heading)
+### Linux
 
-#####  [Easy](tree/master/Linux%20Machines/Easy/)
+#### Easy
 
-- [Bashed | IP: 10.10.10.68](blob/master/Linux%20Machines/Easy/Bashed/README.md)
+- [Bashed | IP: 10.10.10.68](Linux%20Machines/Easy/Bashed/README.md)
 	
-#### [Medium](tree/master/Linux%20Machines/Easy/)
+#### Medium
 
-#### [Hard](tree/master/Linux%20Machines/Easy/)
+#### Hard
     
-### [Windows](#heading-1)
+### Windows
 
-#####  [Easy](tree/master/Windows%20Machines/Easy)
+#### Easy
 	
-- [Devel | IP: 10.10.10.5](blob/master/Windows%20Machines/Retired/Devel/README.md)
+- [Devel | IP: 10.10.10.5](Windows%20Machines/Retired/Devel/README.md)
 
-#### [Medium](tree/master/Windows%20Machines/Medium)
+#### Medium
 
-#### [Hard](tree/master/Windows%20Machines/Hard)
+#### Hard
 
