@@ -13,9 +13,11 @@ Profile: https://www.hackthebox.eu/home/users/profile/256874
 - [Bashed | IP: 10.10.10.68](Linux%20Machines/Easy/Bashed/README.md)
 - [Nibbles | IP: 10.10.10.75](Linux%20Machines/Easy/Nibbles/README.md)
 	
-<!-- #### Medium
+#### Medium
 
-#### Hard -->
+- [Node | IP: 10.10.10.58](Linux%20Machines/Medium/Node/README.md)
+
+<!-- #### Hard -->
     
 ## Windows
 
