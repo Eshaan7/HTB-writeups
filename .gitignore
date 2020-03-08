@@ -4,3 +4,5 @@ Active/
 */Active/
 *.pdf
 README_template.md
+flags.txt
+md2html.sh
