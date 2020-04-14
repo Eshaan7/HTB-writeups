@@ -66,6 +66,8 @@ privileges.
 
 ![](2.5.png)
 
+> Note: Can also be exploited with [Dirty COW (CVE-2016-5195)](https://dirtycow.ninja/).
+
 ### Trophy
 
 ![Trophy](trophy.png)

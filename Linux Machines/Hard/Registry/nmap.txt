@@ -1,0 +1,45 @@
+$ sudo nmap -p- -A -T4 10.10.10.159                                                                                                                                                                                                   
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-02 14:08 IST
+Stats: 0:07:21 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 44.52% done; ETC: 14:24 (0:09:10 remaining)
+Nmap scan report for registry.htb (10.10.10.159)
+Host is up (0.23s latency).
+Not shown: 65532 closed ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 72:d4:8d:da:ff:9b:94:2a:ee:55:0c:04:30:71:88:93 (RSA)
+|   256 c7:40:d0:0e:e4:97:4a:4f:f9:fb:b2:0b:33:99:48:6d (ECDSA)
+|_  256 78:34:80:14:a1:3d:56:12:b4:0a:98:1f:e6:b4:e8:93 (ED25519)
+80/tcp  open  http     nginx 1.14.0 (Ubuntu)
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: Welcome to nginx!
+443/tcp open  ssl/http nginx 1.14.0 (Ubuntu)
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: Welcome to nginx!
+| ssl-cert: Subject: commonName=docker.registry.htb
+| Not valid before: 2019-05-06T21:14:35
+|_Not valid after:  2029-05-03T21:14:35
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=3/2%OT=22%CT=1%CU=31482%PV=Y%DS=2%DC=T%G=Y%TM=5E5CCA31
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=A)OPS(
+OS:O1=M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11
+OS:NW7%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(
+OS:R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=
+OS:S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 1025/tcp)
+HOP RTT       ADDRESS
+1   437.52 ms 10.10.14.1
+2   437.58 ms registry.htb (10.10.10.159)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1075.20 seconds
